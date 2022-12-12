@@ -6,10 +6,18 @@ import github from "../image/github-icon.png";
 const Footer = () => {
   return (
     <div className="f-container">
-      <img src={twitter} alt="twitter" />
-      <img src={facebook} alt="facebook" />
-      <img src={instagram} alt="instagram" />
-      <img src={github} alt="github" />
+      <a href="https://twitter.com/ngtouthang">
+        <img src={twitter} alt="twitter" />
+      </a>
+      <a href="https://www.facebook.com/mamang.touthang.1">
+        <img src={facebook} alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com/ngamlenmang_touthang/">
+        <img src={instagram} alt="instagram" />
+      </a>
+      <a href="https://github.com/MTouthang">
+        <img src={github} alt="github" />
+      </a>
     </div>
   );
 };

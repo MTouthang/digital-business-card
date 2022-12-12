@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className='hero-typo'>
             <h1> M Touthang</h1>
             <h3> Fullstack Developer</h3>
-            <p>ngtouthang.netlify.app</p>
+            <a href="https://ngtouthang.netlify.app/"><p>ngtouthang.netlify.app</p></a>
         </div>
         
         <div className='p-button'>
