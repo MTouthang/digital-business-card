@@ -46,6 +46,10 @@ code {
   color: #FFFF;
 
 }
+.hero-section > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .hero-typo > h3 {
   color: #F3BF99;
   font-weight: 400;
@@ -63,13 +67,13 @@ code {
   width: 317px;
   display: flex;
   justify-content: center;
- 
+  border: 0px;
   margin-bottom: 0px;
 
 }
 
 .p-button > button {
-    
+    cursor: pointer;
     font-size: 14pt;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -78,12 +82,21 @@ code {
     border-radius: 10px;
     
 }
+
 .btn-icon{
   width: 16px;
   height: 16px;
   padding-right: 10px;
 }
 .p-btn-two {
+  background-color: #5093E2;
+  color: #FFFF;
+}
+
+.p-btn-two:hover {
+  background-color: #000;
+}
+.p-btn-one:hover{
   background-color: #5093E2;
   color: #FFFF;
 }
