@@ -5,9 +5,125 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #161619;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  background-color: #23252C;
+  width: 550px;
+  height: 868px;
+  margin: auto;
+  margin-top: 3%;
+  padding-bottom: 0;
+  border-radius: 10px;
+}
+
+.hero-section{
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero-typo {
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+  width: 317px;
+  background-color: #1A1B21;
+}
+.hero-typo > h1 {
+  font-size: 25pt;
+  margin-top: 1px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: #FFFF;
+
+}
+.hero-typo > h3 {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 12.8pt;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+.hero-typo > p {
+  color: #F5F5F5;
+  font-size: 10.24pt;
+  margin-top: 0px;
+}
+.p-button {
+  background-color: #1A1B21;
+  width: 317px;
+  display: flex;
+  justify-content: center;
+ 
+  margin-bottom: 0px;
+
+}
+
+.p-button > button {
+    
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 135px;
+    margin: 8px;
+    border-radius: 10px;
+    
+}
+.btn-icon{
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+.p-btn-two {
+  background-color: #5093E2;
+  color: #FFFF;
+}
+
+.about-section {
+  background-color: #1A1B21;
+  width: 317px;
+  margin: auto;
+  margin-top: -20px;
+}
+.about-section > h2 {
+  margin-top: 0px;
+  font-size: 16pt;
+  padding-left: 23px;
+  padding-top: 20px;
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+.about-section > p {
+  padding-left: 23px;
+  font-size: 10.24pt;
+  color: #F5F5F5;
+  padding-right: 23px;
+  margin-top: 0;
+
+}
+.interest {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.f-container{
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  margin: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}
+
